@@ -34,6 +34,12 @@ Dále připravte sadu funkcí pro simulování základní části turnaje:
 * _odehraj skupinu_ – funkce přijme jako parametr ukazatel na příslušnou skupinu týmů
 * _odehraj zápas_ – funkce přijme dva týmy ze skupiny a vygeneruje výsledek (skóre, výhra/prohra v základní části nebo
 v prodloužení a počet bodů), aktualizuje data obou týmů. Výsledek zápasu vypíše na obrazovku.
+    * rozdělování bodů: Na každý zápas jsou k dispozici celkem 3 body.
+        * tým, který vyhraje v základní době, dostane 3 body
+        * tým, který prohraje v základní době, dostane 0 bodů
+        * pokud základní doba skončí remízou, prodlužuje se
+            * tým, který vyhraje v prodloužení dostane 2 body
+            * tým, který prohraje v prodloužení dostane 1 bod
 
 V hlavním programu potom spusťte odehrání skupin a každou skupinu seřaďte sestupně podle klíče:
 * počet bodů
