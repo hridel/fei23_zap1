@@ -47,3 +47,9 @@ V hlavním programu potom spusťte odehrání skupin a každou skupinu seřaďte
 * počet vstřelených branek
 
 Utříděné skupiny s výslednými daty týmů vypište na obrazovku a zapište do CSV souboru.
+
+---
+
+_V programu proveďte smysluplné pojmenování potřebných proměnných a funkcí.
+Do STAGu do odevzdávání semestrálních prací nahrajte ZIP soubor obsahující
+zdrojové kódy (*.c, případně *.h) a výsledný CSV soubor, který je výstupem programu._
