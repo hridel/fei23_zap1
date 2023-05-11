@@ -1,6 +1,9 @@
 # Zápočet 1
 ## Simulátor základní části MS v ledním hokeji 2023
 
+## https://github.com/hridel/fei23_zap1
+
+
 Napište program v jazyce C, který bude simulovat základní část MS v ledním hokeji.
 
 Nadefinujte vlastní strukturu představující záznam jednoho týmu v tabulce skupiny MS.
