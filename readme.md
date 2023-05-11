@@ -31,7 +31,7 @@ Z přiloženého CSV (comma separated values) souboru [input.csv](data%2Finput.c
 
 Dále připravte sadu funkcí pro simulování základní části turnaje:
 
-* _odehraj skupinu_ – funkce přijme jako parametr ukazatel na příslušnou skupinu týmů
+* _odehraj skupinu_ – funkce přijme jako parametr ukazatel na příslušnou skupinu týmů, mezi kterými se odehraje vždy jeden zápas "každý s každým"
 * _odehraj zápas_ – funkce přijme dva týmy ze skupiny a vygeneruje výsledek (skóre, výhra/prohra v základní části nebo
 v prodloužení a počet bodů), aktualizuje data obou týmů. Výsledek zápasu vypíše na obrazovku.
     * rozdělování bodů: Na každý zápas jsou k dispozici celkem 3 body.
